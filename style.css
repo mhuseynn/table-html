@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+
+main
+{
+    display: flex;
+    justify-content: center;
+}
+
+.divtable
+{
+
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    width: 100%;
+    margin-top: 50px;
+    border-bottom: 3px solid  rgb(1,152,121) ;
+}
+
+table
+{
+    max-width: 500px;
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 8px;
+    
+}
+
+
+
+th
+{
+    background-color: rgb(1,152,121);
+    color: white;
+    padding: 10px; 
+}
+
+
+tr
+{  
+    border: 1px solid lightgray;
+    text-align: left;
+}
+
+
+td
+{
+    padding: 10px;
+}
+
+tr:nth-child(even)
+{
+    background-color: lightgray;
+}
+
+tr:hover
+{
+    color: green;
+    cursor: pointer;
+}
